@@ -11,7 +11,7 @@
 }
 
 .container {
-  margin-top: 105px;
+  padding-top: 105px;
 }
 
 .title {
@@ -34,8 +34,8 @@
   flex-direction: column;
 }
 .btn {
-  margin: 0 auto;
-  display: block;
+  display: inline;
+  text-align: center;
   font-family: "Work Sans", sans-serif;
   font-size: 18px;
   line-height: 20px;
@@ -49,6 +49,12 @@
 .btn:hover {
   cursor: pointer;
   color: #ff3946;
+}
+
+.btnContainer {
+  margin-top: 60px;
+  text-align: center;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {

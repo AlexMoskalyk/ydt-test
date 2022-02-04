@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import RightExtraFunc from "../rightExtraFunctional/RightExtraFunc";
 import s from "./NavList.module.css";
 
 const NavList = ({ routes, toggleModal }) => {
