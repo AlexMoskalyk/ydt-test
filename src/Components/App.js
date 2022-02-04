@@ -1,11 +1,14 @@
-import React from 'react';
-import Header from '../Components/header/Header';
+import React from "react";
+import Header from "./header/Header";
+import Main from "./main/Main";
+import Wrapper from "./wrapper/Wrapper";
 
 const App = () => {
   return (
-    <>
+    <Wrapper>
       <Header />
-    </>
+      <Main />
+    </Wrapper>
   );
 };
 
