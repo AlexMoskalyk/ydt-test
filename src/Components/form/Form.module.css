@@ -1,0 +1,141 @@
+.container {
+  padding-top: 300px;
+}
+
+.title {
+  display: block;
+  text-align: left;
+  font-family: "Work Sans", sans-serif;
+  font-size: 48px;
+  line-height: 60px;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 35px;
+  margin-bottom: 60px;
+
+  color: #314584;
+}
+
+.text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: bold;
+  color: #ff3946;
+}
+.formContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.extraContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.formBtn {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  background-color: white;
+  width: 200px;
+  height: 55px;
+  color: #314584;
+}
+.formBtn_cont {
+  margin-top: 65px;
+  display: block;
+  text-align: center;
+}
+.formBtn:hover {
+  cursor: pointer;
+  background-color: #ff3946;
+  color: white;
+}
+
+.formInput {
+  border: none;
+  background-color: #f4fafe;
+  outline: none;
+  width: 290px;
+  height: 65px;
+}
+.formInput:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.formTextarea {
+  border: none;
+  background-color: #f4fafe;
+  outline: none;
+  width: 290px;
+  height: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .formContainer {
+    align-items: unset;
+  }
+  .formInput:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .extraContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .formTextarea {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    color: #314584;
+    border: none;
+    background-color: #f4fafe;
+    outline: none;
+    width: 730px;
+    height: 120px;
+  }
+  .formInput {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    color: #314584;
+    border: none;
+    background-color: #f4fafe;
+    outline: none;
+    width: 340px;
+    height: 65px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .extraContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .formTextarea {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    color: #314584;
+    border: none;
+    background-color: #f4fafe;
+    outline: none;
+    width: 1140px;
+    height: 120px;
+  }
+  .formInput {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    color: #314584;
+    border: none;
+    background-color: #f4fafe;
+    outline: none;
+    width: 550px;
+    height: 65px;
+  }
+}

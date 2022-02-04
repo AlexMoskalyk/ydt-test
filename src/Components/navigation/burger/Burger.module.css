@@ -1,0 +1,12 @@
+.burger {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: white;
+  margin-left: 50px;
+  box-shadow: none;
+}
+.burger:hover,
+:focus {
+  box-shadow: none;
+}

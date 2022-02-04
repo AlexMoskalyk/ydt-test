@@ -1,0 +1,74 @@
+.title {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 71px;
+  line-height: 95px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #314584;
+  margin-bottom: 15px;
+}
+.text {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #6e757a;
+  margin-bottom: 15px;
+}
+
+.btn {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  background-color: white;
+  width: 200px;
+  height: 55px;
+  color: #314584;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #ff3946;
+  color: white;
+}
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+}
+.btn:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .btnContainer {
+    flex-direction: row;
+  }
+  .btn:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .container {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .btnContainer {
+    flex-direction: row;
+  }
+  .btn:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 540px;
+  }
+}

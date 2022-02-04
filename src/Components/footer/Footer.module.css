@@ -1,0 +1,44 @@
+.container {
+  padding-top: 78px;
+  padding-bottom: 45px;
+  background-color: #314584;
+}
+
+.text {
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  color: #ff3946;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 50px;
+}
+
+.extraText {
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 57px;
+}
+.listSocial {
+  display: flex;
+  justify-content: center;
+}
+
+.itemSocial:not(:last-child) {
+  margin-right: 100px;
+}
